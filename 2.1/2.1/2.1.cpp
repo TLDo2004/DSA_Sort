@@ -29,7 +29,7 @@ int main() {
 	cin >> test;
 	int n, m;
 	cin >> n >> m;
-	for (int t = 0; t <= test; t++) {
+	for (int t = 1; t <= test; t++) {
 		int* a = new int[n];
 		int* b = new int[m];
 		Nhap(a, n);
