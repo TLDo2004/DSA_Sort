@@ -27,9 +27,9 @@ void Xuat(int* a, int* b, int n, int m) {
 int main() {
 	int test;
 	cin >> test;
-	int n, m;
-	cin >> n >> m;
 	for (int t = 1; t <= test; t++) {
+		int n, m;
+		cin >> n >> m;
 		int* a = new int[n];
 		int* b = new int[m];
 		Nhap(a, n);
